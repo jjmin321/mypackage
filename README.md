@@ -1,0 +1,2 @@
+# Mypackage
+make with golang.
