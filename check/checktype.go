@@ -2,7 +2,7 @@ package check
 
 import "fmt"
 
-func checkType(a interface{}) {
+func Checktype(a interface{}) {
 	switch a.(type) {
 	case bool:
 		fmt.Println("This is bool,", a)
