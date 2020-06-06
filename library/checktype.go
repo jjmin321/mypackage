@@ -1,7 +1,8 @@
-package check
+package library
 
 import "fmt"
 
+// Checktype - 값의 타입을 확인해주는 라이브러리 , Ex) Checktype(num1)
 func Checktype(a interface{}) {
 	switch a.(type) {
 	case bool:

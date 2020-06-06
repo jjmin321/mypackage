@@ -1,7 +1,8 @@
-package color
+package library
 
 import "github.com/fatih/color"
 
+// Colorprint - 터미널이나 콘솔창의 글씨에 색깔을 붙힐 수 있게 해주는 라이브러리, Ex) Colorprint("It is red text", red)
 func Colorprint(a, b string) { //a는 텍스트 , b는 색깔
 	switch b {
 	case "red":
